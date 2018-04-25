@@ -1,5 +1,6 @@
 tr{
-    background-color: bisque
+    background-color: bisque;
+    border-color: black;
     
 }
 td{
@@ -9,4 +10,8 @@ td{
 #nimi{
     background-color:  #99ffcc;
     text-align-last: left;
+}
+table{
+    border-style: dotted;
+    border-color: #cc00cc;
 }
