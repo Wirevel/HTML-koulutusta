@@ -1,0 +1,8 @@
+ol,ul{
+    float: left;
+    display: block;
+}
+
+#color{
+    background-color: deepskyblue;
+}
