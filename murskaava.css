@@ -1,0 +1,44 @@
+.paaotsikko {
+    color: black;
+        font-family: 'Titan One', cursive;
+}
+body {
+    margin:0 auto;
+    font-family: sans-serif;
+    background: peachpuff;
+    width: 800px;
+}
+nav{
+    border-radius: 12px;
+}
+nav li{
+    background: black;
+    color:white;
+    float:left;
+    list-style: none; 
+    margin 0 auto;
+    padding: 5px 25px;
+    border-radius: 12px; 
+}
+article{
+    background-color:azure;
+    float:left;
+    border-radius: 12px;
+    padding:7px;
+    width: 800px;
+    margin: 40px 0 0 0;
+}
+.pikkuotsikko, .name{
+    color:red;
+}
+h4{
+    float:left;
+}
+.paakirjoitus {
+    float:left;
+    margin: 0 auto;
+}
+a li {
+    list-style: none;
+    float:left;
+}
