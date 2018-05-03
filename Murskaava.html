@@ -3,13 +3,14 @@
     <head>
         <title>Murskaava HTML5</title>
         <link href="murskaava.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Belgrano" rel="stylesheet">
     </head>
     <body>
+        <!-- pääotsikko-->
         <header>
             <h1 class="paaotsikko"><a href="#">Murskaava HTML5! <br/><strong>HTML5 vuonna <del>2022</del>-<ins>2018</ins></strong>
             </a></h1>
-
+            <!--navigointi baari -->
         <nav><ul>
             <a href="#"><li>koti</li></a>
             <a href="#"><li>kuvapankki</li></a>
@@ -17,25 +18,92 @@
             <a href="#"><li>ota yhteytt&auml;</li></a>
             </ul></nav>
         </header>
+        <!--ensinmäinen laatikko-->
         <aside>
             <article class="paakirjoitus">
+                <img src="rickroll.gif" height="200" width="200">
                 <h2>Pääkirjoitus</h2>
                 <h3><a href="#">HTLM5 loistavassa lehdess&auml;!</a></h3>
                 <p>Opi, kuinka käyttää kehittynyttä parannusteknikkaa <a href="#">HTML5</a>ja <a href="#">CSS3</a> websivuissa tänään!</p>
             </article>
         </aside>
+        <!--Toinen laatikko-->
         <section>
                 <li>
-                    <abbr>10.tammikuuta 2018</abbr>
-                    <address>by 
-                    <a href="#">Erkki Ramiranta</a>
+                    <div class="left">
+                    <abbr title="#">10.tammikuuta 2018</abbr>
+                    <address>
+                        by <a href="#">Erkki Ramiranta</a>
                     </address>
-                    <header><h2 class="pikkuotsikko">Otsikko tämäkin</h2></header>
-                    <div>
+                    </div>
+                    <div class="right">
+                    <header>
+                        <h2 class="pikkuotsikko">
+                            Otsikko tämäkin
+                        </h2>
+                    </header>
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.</p>
                     </div>
                 </li>
+            <li>
+                    <div class="left">
+                    <abbr title="#">06.Helmiikuuta 2018</abbr>
+                    <address>
+                        by <a href="#">Jyri Lindroos</a>
+                    </address>
+                    </div>
+                    <div class="right">
+                    <header>
+                        <h2 class="pikkuotsikko">
+                            Tämä on ihan oikea otsikko
+                        </h2>
+                    </header>
+
+                        <p>Tämä tässä on pupputekstiä, jota ei ole tuotettu pupputekstigeneraattorilla. Tätä tekstiä voisi olla
+                        <a href="#">enemmänkin</a>, mutta koska tuotan tätä omasta päästäni, en keksi enää lisää.</p>
+                    </div>
+                </li>
+            <li>
+                    <div class="left">
+                    <abbr title="#">06. Helmikuuta 2018</abbr>
+                    <address>
+                        by <a href="#">Jyri Lindroos</a>
+                    </address>
+                    </div>
+                    <div class="right">
+                    <header>
+                        <h2 class="pikkuotsikko">
+                            Onko maapallon ulkopuolella elämää?
+                        </h2>
+                    </header>
+
+                    <p>Avaruusolioita, kuten Maan ulkopuolisia bakteereja, on oletettu elävän aurinkokunnassa ja mahdollisesti myös koko maailmankaikkeudessa. Tämä oletus pohjautuu käsitykseen, jonka mukaan havaittava maailmankaikkeus on äärimmäisen suuri ja joka puolella vallitsevat samat fysiikan lait. Oletuksen mukaan olisi epätodennäköistä, että Maan ulkopuolella ei olisi elämää. Tämän näkemyksen kannattajia ovat mm. tunnetut tiedemiehet Carl Sagan ja Stephen Hawking.</p>
+                    </div>
+                </li>
         </section>
+        <ol class="blogroll">
+            <h2 class="pikkuotsikko">Blogroll</h2>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <ol class="blogroll2">
+            <h2>space</h2>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
         
     </body>
 </html>

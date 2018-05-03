@@ -1,44 +1,83 @@
 .paaotsikko {
-    color: black;
-        font-family: 'Titan One', cursive;
+    font-family: 'belgrano', serif;
 }
 body {
     margin:0 auto;
     font-family: sans-serif;
-    background: peachpuff;
+    background-color: #f2f2f2;
     width: 800px;
 }
-nav{
-    border-radius: 12px;
-}
-nav li{
+
+/* navikointi baari */
+nav ul{
+    width: 800px;
+    height: 40px;
     background: black;
-    color:white;
+    border-radius: 12px;
+
+}
+
+nav li{
+    padding-top: 5px;
+    font-size: 25px;
+    margin:0 2em auto;
     float:left;
-    list-style: none; 
-    margin 0 auto;
-    padding: 5px 25px;
-    border-radius: 12px; 
+    list-style: none;
+    color: aliceblue
+
 }
 article{
-    background-color:azure;
+    background-color:white;
     float:left;
     border-radius: 12px;
-    padding:7px;
+    padding:20px 15px;
     width: 800px;
     margin: 40px 0 0 0;
 }
-.pikkuotsikko, .name{
-    color:red;
-}
-h4{
+section {
+    background-color:white;
     float:left;
+    border-radius: 12px;
+    padding: 20px 15px;
+    width: 800px;
+    margin: 40px 0 0 0;
 }
-.paakirjoitus {
-    float:left;
-    margin: 0 auto;
-}
-a li {
+section li{
     list-style: none;
+}
+section p,section h2{
+    text-align: left;
+}
+.left{
+    margin: 30px 5px 0 0;
+   float:left;
+ }
+
+.right{
+     border-bottom: solid;
+     padding: 5px;
+     margin-left:200px;
+ }
+a {
+    color: red;
+    padding: 2px;
+}
+.blogroll{
     float:left;
+}
+.blogroll2{
+    float: right;
+}
+
+img {
+    float:right
+}
+section li:hover{
+    text-shadow: 1px 1px#000;
+    background-color: red;
+    color:white;
+}
+a:hover{
+    background-color: red;
+    color:yellow;
 }
