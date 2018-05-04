@@ -1,66 +1,58 @@
 .paaotsikko {
+    color: black;
     font-family: 'belgrano', serif;
+    margin-bottom: 40px;
 }
 body {
-    margin:0 auto;
+    margin: 0 2em auto;
     font-family: sans-serif;
     background-color: #f2f2f2;
-    width: 800px;
+    max-width: 800px;
 }
-
-/* navikointi baari */
-nav ul{
-    width: 800px;
+.HP{ /* punaset tekstit */
+    color:red;
+    padding:2px
+}
+/* navigoingti */
+ul{
+    width: 791px;
+    background-color: black;
     height: 40px;
-    background: black;
-    border-radius: 12px;
-
+    border-radius: 7px;
+    margin-right: 2px;
 }
-
-nav li{
-    padding-top: 5px;
-    font-size: 25px;
-    margin:0 2em auto;
-    float:left;
+ul li{
+    max-width: 800px;
+    background-color: black;
+    padding:12px 80px 10px 20px;
+    margin-right: 2px;
+    color:white;
     list-style: none;
-    color: aliceblue
-
+    float:left;    
 }
+#koti{
+    background-color: red;
+    width: auto;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+ul li:hover{
+    background-color: red;
+    width:auto;
+}
+
+
 article{
     background-color:white;
     float:left;
-    border-radius: 12px;
-    padding:20px 15px;
+    padding:15px;
     width: 800px;
-    margin: 40px 0 0 0;
-}
-section {
-    background-color:white;
-    float:left;
-    border-radius: 12px;
-    padding: 20px 15px;
-    width: 800px;
-    margin: 40px 0 0 0;
 }
 section li{
     list-style: none;
 }
-section p,section h2{
-    text-align: left;
-}
-.left{
-    margin: 30px 5px 0 0;
-   float:left;
- }
 
-.right{
-     border-bottom: solid;
-     padding: 5px;
-     margin-left:200px;
- }
-a {
-    color: red;
-    padding: 2px;
 }
 .blogroll{
     float:left;
@@ -72,11 +64,55 @@ a {
 img {
     float:right
 }
-section li:hover{
+
+/* EKA LAATIKKO */
+.PO{
+    margin-left: 55px;
+    color:red;
+    text-decoration: none;
+}
+footer{
+    float:left;
+    margin:20px 0 0 0;
+}
+.right{
+
+     margin-left:200px;
+ } 
+/*kaikkiin laatikoihin koskevat säännökset*/
+.laatikko{
+    position:relative;
+    border-bottom-color: #e2e2e2;
+    border-bottom-style: dotted;
+    right:40px;
+}
+#laatikko1{
+    margin-top: 40px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#laatikko3{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-style: none;
+}
+
+/* laatikko hovering*/
+.laatikko:hover {
     text-shadow: 1px 1px#000;
     background-color: red;
     color:white;
 }
+.laatikko:hover .HP{
+    text-shadow: 1px 1px#000;
+    color:yellow;
+}
+.laatikko:hover .PO{
+    text-shadow: 1px 1px#000;
+    color:yellow;
+}
+
+
 a:hover{
     background-color: red;
     color:yellow;
