@@ -12,11 +12,11 @@
             </a></h1>
             <!--navigointi baari -->
         <nav>
-            <ul>
-            <a class="NP" href="#"><li id="koti">koti</li></a>
-            <a class="NP" href="#"><li>kuvapankki</li></a>
-            <a class="NP" href="#"><li>blogi</li></a>
-            <a class="NP" href="#"><li>ota yhteytt&auml;</li></a>
+            <ul class="navbar">
+                <li id="koti"><a class="NP" href="#">koti</a></li>
+                <li id="kuvapankki"><a class="NP" href="#">kuvapankki</a></li>
+                <li id="blogi"><a class="NP" href="#">blogi</a></li>
+                <li id="otayhteytta"><a class="NP" href="#">ota yhteytt&auml;</a></li>
             </ul>
         </nav>
         </header>
@@ -25,7 +25,7 @@
             <article class="paakirjoitus">
                 <img src="rickroll.gif" height="200" width="200">
                 <h2>Pääkirjoitus</h2>
-                <h3><a class="HP" href="#">HTLM5 loistavassa lehdess&auml;!</a></h3>
+                <h3 id="HTML"><a class="HP" href="#">HTLM5 loistavassa lehdess&auml;!</a></h3>
                 <p>Opi, kuinka käyttää kehittynyttä parannusteknikkaa <a class="HP" href="#">HTML5</a>ja <a class="HP" href="#">CSS3</a> websivuissa tänään!</p>
             </article>
         </aside>
@@ -34,7 +34,7 @@
             <ol>
             <li>
             <article class="laatikko" id="laatikko1">
-                        <footer>
+                        <footer id="pv">
                             <abbr title="#">10.tammikuuta 2018</abbr>
                             <address>
                         by <a class="HP" href="#">Erkki Ramiranta</a>
@@ -51,7 +51,7 @@
                 <!--Laatikko kaksi-->
             <li>
             <article class="laatikko" id="laatikko2">
-                        <footer><abbr title="#">06.Helmiikuuta 2018</abbr>
+                        <footer id="pv"><abbr title="#">06.Helmiikuuta 2018</abbr>
                             <address>
                         by <a class="HP" href="#">Jyri Lindroos</a>
                             </address>
@@ -67,7 +67,7 @@
                 <!--Laatikko 3 -->
             <li>
             <article class="laatikko" id="laatikko3">
-                        <footer><abbr title="#">06.Helmiikuuta 2018</abbr>
+                        <footer id="pv"><abbr title="#">06.Helmiikuuta 2018</abbr>
                             <address>
                         by <a class="HP" href="#">Jyri Lindroos</a>
                             </address>
@@ -81,31 +81,41 @@
             </article>
             </li>
             </ol> 
+        </section>        
+        <section >
+            <div id="blogroll">
+                <h2>Blogroll</h2>
+                <ul class="blogroll">
+                    <li><a href="#">HTML5 Doctor</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                    <li><a href="#">HTML5 Doctor</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                    <li><a href="#">HTML5 Doctor</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                </ul>
+            </div>
+            <div id="social">
+                <h2>Social</h2>
+                <ul class="social">
+                    <li><a href="#">delicious</a></li>
+                    <li><a href="#">digg</a></li>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">last.fm</a></li>
+                    <li><a href="#">rss</a></li>
+                    <li><a href="#">twitter</a></li>
+                </ul>
+            </div>
         </section>
-        
-        <!-- hetkellinen
-        <ol class="blogroll">
-            <h2>Blogroll</h2>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-        <ol class="blogroll2">
-            <h2>space</h2>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol> -->
-        
+        <footer>
+            <address id="loistava">
+                <h2><a href="#">Loistava lehti</a></h2><p id="UJ">Uskomaton julkaisu</p>
+                <img id="smiley" src="smiley.png" height="75" width="75">
+                <p id="LL">Loistava lehti on web-sivu ja blogi joka tarjoaa resursseja ja neuvoja web-kehittäjälle ja web suunnittelijoille. Sen ovat perustaneet Veikko Lennu ja Ville Riekki.</p>
+            </address>
+        </footer>
+        <p id="smash">2005-2009 <a href="#">Smashing Magazine</a>.</p>
     </body>
 </html>

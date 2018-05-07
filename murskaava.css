@@ -1,10 +1,11 @@
-.paaotsikko {
+.paaotsikko a {
     color: black;
     font-family: 'belgrano', serif;
     margin-bottom: 40px;
 }
 body {
-    margin: 0 2em auto;
+    width: 800px;
+    margin: 0 auto;
     font-family: sans-serif;
     background-color: #f2f2f2;
     max-width: 800px;
@@ -14,21 +15,42 @@ body {
     padding:2px
 }
 /* navigoingti */
-ul{
+
+/*
+.navbar{
     width: 791px;
     background-color: black;
     height: 40px;
     border-radius: 7px;
     margin-right: 2px;
 }
-ul li{
+.navbar li{
     max-width: 800px;
     background-color: black;
     padding:12px 80px 10px 20px;
-    margin-right: 2px;
     color:white;
     list-style: none;
     float:left;    
+}
+*/
+
+.navbar{
+    width: 788px;
+    border-radius: 12px;
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.navbar li{
+    float: left;
+}
+.NP{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
 #koti{
     background-color: red;
@@ -37,12 +59,22 @@ ul li{
     border-top-left-radius: 7px;
 }
 
-ul li:hover{
+.navbar li:hover{
     background-color: red;
     width:auto;
 }
 
-
+.paakirjoitus{
+    width: 800px;
+    border-radius: 12px;
+}
+.paakirjoitus h2{
+    color:red;
+}
+#HTML a{
+    color:black;
+    text-decoration: none;
+}
 article{
     background-color:white;
     float:left;
@@ -51,14 +83,6 @@ article{
 }
 section li{
     list-style: none;
-}
-
-}
-.blogroll{
-    float:left;
-}
-.blogroll2{
-    float: right;
 }
 
 img {
@@ -71,7 +95,7 @@ img {
     color:red;
     text-decoration: none;
 }
-footer{
+#pv{
     float:left;
     margin:20px 0 0 0;
 }
@@ -81,6 +105,7 @@ footer{
  } 
 /*kaikkiin laatikoihin koskevat säännökset*/
 .laatikko{
+    width: 800px;
     position:relative;
     border-bottom-color: #e2e2e2;
     border-bottom-style: dotted;
@@ -113,7 +138,91 @@ footer{
 }
 
 
-a:hover{
+a:hover,#loistava h2 a:hover{
     background-color: red;
     color:yellow;
+}
+
+
+/* BLOGROLL kohdan säännökset */
+#blogroll h2, #social h2, #loistava h2{
+    color:red;
+}
+#blogroll{
+    display: block;
+    float:left;
+    width: 400px;
+}
+.blogroll{
+    margin: 0;
+    float:left;
+    padding: 2px;
+}
+.blogroll li{
+    float:left;
+    width:185px;
+    border-bottom: solid;
+    border-bottom-color: antiquewhite;
+    margin: 5px;
+}
+/* SOCIAL */
+
+#social{
+    float:right;
+}
+.social li a,.blogroll li a{
+    color:black;
+    text-decoration: none;
+}
+.social li{
+    border-bottom: solid;
+    border-bottom-color: antiquewhite;
+    margin: 5px;
+    color: black;
+}
+
+/* Blogroll ja social hovering*/
+.social a:hover, .blogroll a:hover{
+    background-color: red;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#loistava {
+    padding: 15px;
+    width: 800px;
+    float:left;
+    margin-bottom: 40px;
+    background-color:white;
+    border-radius: 12px;
+}
+#smiley{
+    float:left;
+    margin: -34px 0 0 30px;
+}
+#loistava h2{
+    margin:20px 0 0 20px;
+}
+#loistava h2 a{
+    color: red;
+    text-decoration: none;
+}
+#UJ{
+    margin:0 0 0 20px;
+    float:left;
+}
+#LL{
+    width: auto;
+    margin:-30px 20px 20px 280px;
+}
+#smash{
+    float:right;
+}
+#smash a{
+    color: red;
+}
+#smash a:hover{
+    color: white;
+    background:red;
+}
 }
